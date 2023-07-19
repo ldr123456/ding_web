@@ -1,0 +1,43 @@
+/* 登录框 */
+.dw-login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+}
+
+/* 标题 */
+.dw-title {
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+form {
+  padding: 30px;
+}
+
+.dw-input {
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  text-align: center;
+}
+
+.login-btn button {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 10px;
+  color: #eee;
+  cursor: pointer;
+  border: none;
+  background-color: #409eff;
+}

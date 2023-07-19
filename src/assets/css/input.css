@@ -1,0 +1,37 @@
+.add-box {
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: rgba(216, 206, 206, 0.3);
+  overflow: hidden; */
+  width: 45%;
+  margin:auto;
+}
+
+.add-box label {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-box p {
+  display: inline;
+}
+
+.add-box input,
+.add-box select {
+  width: 300px;
+  height: 35px;
+  margin-left: 10px;
+}
+.add-box select option{
+  padding: 5px;
+  font-size: 16px;
+}
+
+.add-box button {
+  padding: 10px;
+}
