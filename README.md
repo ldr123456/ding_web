@@ -1,7 +1,3 @@
 # 钉钉机器人管理
-
-
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 项目介绍
+基于vue框架的钉钉机器人管理系统，主要是为了解决钉钉机器人设置较为繁琐的问题，该项目本质上算是一个简单的后台管理系统，是练手时写的东西。
