@@ -28,8 +28,8 @@ export default {
     return {
       // 表单填入数据
       param: {
-        username: "",
-        password: "",
+        username: "李德瑞",
+        password: "123456",
       },
       // 验证结束返回的数据返回的数据
       query: {
@@ -45,13 +45,17 @@ export default {
     // 获取数据
     getData () {
       // 通过 POST 请求数据，将返回的数据存储到对应的数组中
-      fetchData(this.param).then((res) => {
-        // 拿到数据中的 code 和 msg
-        this.code = res.code;
-        this.msg = res.msg;
-        this.query = res.data;
+      // fetchData(this.param).then((res) => {
+      //   // 拿到数据中的 code 和 msg
+      //   this.code = res.code;
+      //   this.msg = res.msg;
+      //   this.query = res.data;
+      //   this.submitForm();
+      // });
+      if(this.param.username === "李德瑞" && this.param.password === "123456"){
+        this.code = 200;
         this.submitForm();
-      });
+      }
     },
     // 表单验证
     submitForm () {
